@@ -1,0 +1,409 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-image: url(../imgs/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+header h1{
+  
+    font-weight: 700;
+    font-size: 54px; 
+    position: relative;
+}
+header h1::after{
+    content: "";
+    -webkit-animation: typing;
+            animation: typing;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+}
+@-webkit-keyframes typing{
+    0%{content:"|"}
+    2%{content: "A |";}
+    4%{content: "A P |";}
+    6%{content: "A Ph |";}
+    8%{content: "A Pho |";}
+    10%{content: "A Phot |";}
+    12%{content: "A Photo |";}
+    14%{content: "A Photog |";}
+    16%{content: "A Photogr|";}
+    18%{content: "A Photogra|";}
+    20%{content: "A Photograp|";}
+    22%{content: "A Photograph|";}
+    24%{content: "A Photographe|";}
+    26%{content: "A Photographer|";}
+
+    26%{content: "A Photographer|";}
+    28%{content: "A Photographe|";}
+    30%{content: "A Photograph|";}
+    32%{content: "A Photograp|";}
+    34%{content: "A Photogra|";}
+    36%{content: "A Photogr|";}
+    38%{content: "A Photog |";}
+    40%{content: "A Photo|";}
+    42%{content: "A Phot|";}
+    44%{content: "A Pho|";}
+    46%{content: "A Ph|";}
+    48%{content: "A P|";}
+    50%{content: "A |";}
+
+    52%{content: "G" ;}
+    54%{content: "GR" ;}
+    56%{content: "GRA" ;}
+    58%{content: "GRAP" ;}
+    60%{content: "GRAPH" ;}
+    62%{content: "GRAPHI" ;}
+    64%{content: "GRAPHIC" ;}
+    66%{content: "GRAPHIC " ;}
+    68%{content: "GRAPHIC D" ;}
+    70%{content: "GRAPHIC DE" ;}
+    72%{content: "GRAPHIC DES" ;}
+    74%{content: "GRAPHIC DESI" ;}
+    76%{content: "GRAPHIC DESIG" ;}
+    78%{content: "GRAPHIC DESIGN" ;}
+    80%{content: "GRAPHIC DESIGNE" ;}
+    82%{content: "GRAPHIC DESIGNER" ;}
+
+}
+@keyframes typing{
+    0%{content:"|"}
+    2%{content: "A |";}
+    4%{content: "A P |";}
+    6%{content: "A Ph |";}
+    8%{content: "A Pho |";}
+    10%{content: "A Phot |";}
+    12%{content: "A Photo |";}
+    14%{content: "A Photog |";}
+    16%{content: "A Photogr|";}
+    18%{content: "A Photogra|";}
+    20%{content: "A Photograp|";}
+    22%{content: "A Photograph|";}
+    24%{content: "A Photographe|";}
+    26%{content: "A Photographer|";}
+
+    26%{content: "A Photographer|";}
+    28%{content: "A Photographe|";}
+    30%{content: "A Photograph|";}
+    32%{content: "A Photograp|";}
+    34%{content: "A Photogra|";}
+    36%{content: "A Photogr|";}
+    38%{content: "A Photog |";}
+    40%{content: "A Photo|";}
+    42%{content: "A Phot|";}
+    44%{content: "A Pho|";}
+    46%{content: "A Ph|";}
+    48%{content: "A P|";}
+    50%{content: "A |";}
+
+    52%{content: "G" ;}
+    54%{content: "GR" ;}
+    56%{content: "GRA" ;}
+    58%{content: "GRAP" ;}
+    60%{content: "GRAPH" ;}
+    62%{content: "GRAPHI" ;}
+    64%{content: "GRAPHIC" ;}
+    66%{content: "GRAPHIC " ;}
+    68%{content: "GRAPHIC D" ;}
+    70%{content: "GRAPHIC DE" ;}
+    72%{content: "GRAPHIC DES" ;}
+    74%{content: "GRAPHIC DESI" ;}
+    76%{content: "GRAPHIC DESIG" ;}
+    78%{content: "GRAPHIC DESIGN" ;}
+    80%{content: "GRAPHIC DESIGNE" ;}
+    82%{content: "GRAPHIC DESIGNER" ;}
+
+}
+header h4{
+    font-size: 24px;
+    font-size: 400;
+}
+header button{
+    border: none;
+    border-radius: 30px;
+    border: 2px solid #f5f5f5;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 32px;
+    background-color: transparent;
+    color: white;
+    -webkit-transition: background-color 1s, color 1s;
+    -o-transition: background-color 1s, color 1s;
+    transition: background-color 1s, color 1s;
+
+}
+
+header button:hover{
+    background-color: white;
+    color: black;
+}
+header p{
+    color: #FFFFFFBF;
+}
+header .layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.setting{
+    background-color: rgb(24, 23, 23);
+    top: 25%;
+    font-size: 1.4rem;
+    padding: 8px;
+    left: 0;
+    color: white;
+}
+
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #e65f78;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #e65f78;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #212529;
+}
+
+.about img{
+    padding:.25rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+.about h4 span{
+    color: #e65f78 ;
+}
+.about .about-icons i{
+    background-color: transparent;
+    font-size: 1.1rem;
+    padding: 12px;
+    border-radius: 50%;
+    border: 2px solid #d4d4d4;
+    color: #212529;
+    -webkit-transition: border 1s , color 1s;
+    -o-transition: border 1s , color 1s;
+    transition: border 1s , color 1s;
+}
+
+.about-icons i:hover{
+    border: 2px solid #e65f78;
+    color: #e65f78;
+    
+}
+.services{
+    background-color: #f8f9fa;
+}
+
+.content-service{
+    border:1px solid #e8e8e8;
+}
+
+h5{
+    font-weight: 600;
+    font-size: 1.25rem;
+    position: relative;
+    
+
+}
+
+.content-service i{
+    font-size: 3rem;
+    color: #e65f78;
+    
+}
+
+.content-service h5:after{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #e65f78;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-transition: width 1s;
+    -o-transition: width 1s;
+    transition: width 1s;
+}
+.content-service:hover h5::after{
+    width: 70px;
+}
+
+.freelancer button{
+    color: white;
+    border: none;
+    background-color: #e65f78;
+    text-transform: uppercase;
+    padding: 15px 32px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 0.25rem;
+    -webkit-transition:background-color 1s,color 1s ;
+    -o-transition:background-color 1s,color 1s ;
+    transition:background-color 1s,color 1s ;
+}
+.freelancer button:hover{
+    background-color: #c23b54;
+    color: #e8e8e8;
+}
+.client-icon i{
+    
+    font-size: 2.8rem;
+    color: #e65f78;
+}
+.client img{
+    padding:.25rem;
+    border: 1px solid #dee2e6;   
+}
+.client p{
+    font-size: 18px;
+}
+
+.carousel-indicators li {
+    background-color: #e65f78;
+    width: 16px;
+    height: 6px;
+    border-radius: 42%;
+    -webkit-transition: width 0.5s;
+    -o-transition: width 0.5s;
+    transition: width 0.5s;
+}
+.carousel-indicators li:hover{
+   width: 20px;
+    
+}
+
+.caption-work{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);   
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    overflow: hidden;
+    
+}
+.img-work{
+overflow: hidden;
+}
+
+.workk:hover .caption-work{
+opacity: 1;
+}
+
+.details{
+    
+    position: relative;
+    top: 100%;
+    -webkit-transition: top 1s;
+    -o-transition: top 1s;
+    transition: top 1s;
+}
+.workk:hover .details{
+    top: 0;
+}
+.workk:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    -o-transition: transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+}
+
+.works a{
+color: black;
+font-weight: 600;
+font-size: 14px;
+background-color: transparent;
+-webkit-transition: color 0.3s , background-color 0.3s;
+-o-transition: color 0.3s , background-color 0.3s;
+transition: color 0.3s , background-color 0.3s;
+}
+.nav-pills .nav-link {
+    border-radius: 30px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color:#e65f78 ;
+}
+.works a:hover{
+    color: white;
+    background-color: #e65f78;
+}
+.card-body span{
+    color: #e65f78;
+}
+.blog img{
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.contact h5{
+    font-size: 18px;
+}
+.contact i{
+    font-size: 2.2rem;
+    color: #e65f78;
+}
+.form-content .form-control:focus{
+    border-color: #e65f78;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.form-content button{
+    background-color: #e65f78;
+    color: white;
+    padding: 15px 32px;
+    font-weight: 700;
+    font-size: 400;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    text-transform: uppercase;
+}
+
+.clr{
+    clear: both;
+}
+
+footer{
+    background-color: #242424;
+}
+.footer-icons i{
+    background-color: rgba(241, 241, 241, 0.08);
+    font-size: 1.4rem;
+    padding: 10px;
+    border-radius: 50%;
+    color: #6c757d;
+    margin-right: 5px;
+}
